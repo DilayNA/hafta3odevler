@@ -20,7 +20,7 @@ namespace haft3odev1
             else if (sayi2 > sayi1)
                 Console.WriteLine("2.Sayı Büyük ");
             else
-                Console.WriteLine("İki sayı birbirine eşittir");
+                Console.WriteLine("İki sayı birbirine eşittir.");
 
             Console.ReadLine();
         }
