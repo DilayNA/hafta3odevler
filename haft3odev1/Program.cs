@@ -8,10 +8,10 @@ namespace haft3odev1
         {
             int sayi1, sayi2;
 
-            Console.WriteLine("1.sayıyı giriniz.");
+            Console.WriteLine("1.sayıyı giriniz:");
             sayi1 = Convert.ToInt16(Console.ReadLine());
 
-            Console.WriteLine("2.sayıyı giriniz.");
+            Console.WriteLine("2.sayıyı giriniz:");
             sayi2 = Convert.ToInt16(Console.ReadLine());
 
             if (sayi1 > sayi2)
