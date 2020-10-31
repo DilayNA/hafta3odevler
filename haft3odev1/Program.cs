@@ -6,7 +6,9 @@ namespace haft3odev1
     {
         static void Main(string[] args)
         {
-            //büyüksayıbulma
+           
+              
+            //BÜYÜK-SAYIYI-BULMA
 
             int sayi1, sayi2;
 
@@ -30,32 +32,30 @@ namespace haft3odev1
 }
 
             
-            
-
-
+           
             /*
              
-            //çarpımtablosu
+          //ÇARPIM-TABLOSU
 
-                for (int j = 1; j <= 10; j++)
-                {
-                    for (int i = 1; i <= 10; i++)
-                    {
-                        Console.Write("{0}*{1}={2}\t", i, j, (i * j));
-                    }
-                    Console.WriteLine();
-                }
-                Console.ReadKey();
-            }
+           for (int j = 1; j <= 10; j++)
+             {
+                for (int i = 1; i <= 10; i++)
+             {
+             Console.Write("{0}*{1}={2}\t", i, j, (i * j))
+
+           }
+               Console.WriteLine();
+           }
+              Console.ReadKey();
+           }
 
 
 
 
-        }
+           /*
 
-    }
-            /*
-            //vizefinalhesaplama
+
+            //VİZE-FİNAL-HESAPLAMA
 
             int vize, final, ort;
             Console.Write("Vize notunu giriniz: ");
@@ -75,45 +75,45 @@ namespace haft3odev1
     }
 }
 
+        /*
+
+         //METİN-UZUNLUĞU
+
+
+        Console.Write("Metni girin ...: ");
+
+        string metin = Console.ReadLine();
+
+        int uzunluk = metin.Length;
+
+
+
+        Console.Write("Girdiğiniz metnin uzunluğu ..=" + uzunluk);
+        Console.ReadLine();
+      }
+   }
+}
+
 
 
 /*
-//metinuzunluğu
 
+    
+       //ÇARPMA-İŞLEMİ
 
-Console.Write("Metni girin ...: ");
-
-string metin = Console.ReadLine();
-
-int uzunluk = metin.Length;
-
-
-
-Console.Write("Girdiğiniz metnin uzunluğu ..=" + uzunluk);
-Console.ReadLine();
-}
-}
-}
-
-
-
-/*
- * 
-//çarpımişlemi
-
-int sayi1, sayi2, sonuc = 0;
-Console.Write("1. sayıyı giriniz : ");
-sayi1 = Convert.ToInt32(Console.ReadLine());
-Console.Write("2. sayıyı giriniz : ");
-sayi2 = Convert.ToInt32(Console.ReadLine());
-for (int i = 1; i <= sayi2; i++)
-{
-    sonuc = sayi1 + sonuc;
-}
-Console.WriteLine("Çarpım Sonucu : " + sonuc);
-Console.ReadKey();
-}
-}
+      int sayi1, sayi2, sonuc = 0;
+      Console.Write("1. sayıyı giriniz : ");
+      sayi1 = Convert.ToInt32(Console.ReadLine());
+      Console.Write("2. sayıyı giriniz : ");
+       sayi2 = Convert.ToInt32(Console.ReadLine());
+       for (int i = 1; i <= sayi2; i++)
+    {
+       sonuc = sayi1 + sonuc;
+    }
+      Console.WriteLine("Çarpım Sonucu : " + sonuc);
+      Console.ReadKey();
+     }
+   }
 }
 
 
